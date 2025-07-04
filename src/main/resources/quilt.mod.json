@@ -1,25 +1,26 @@
 {
 	"schema_version": 1,
 	"quilt_loader": {
-		"group": "${group}",
-		"id": "example_mod",
-		"version": "${version}",
+		"group": "online.zvserv.testmod",
+		"id": "test_mod",
+		"version": "0.0.0.0.0.0.0.0.0.0.0.0.1",
 		"metadata": {
-			"name": "Mod Name",
-			"description": "A short description of your mod.",
+			"name": "TestMod",
+			"description": "A short description of my mod.",
 			"contributors": {
-				"Your name here": "Owner"
+				"Developer 1": "Ewy",
+				"Developer 2": "ppght"
 			},
 			"contact": {
-				"homepage": "https://example.com/",
-				"issues": "https://github.com/QuiltMC/quilt-template-mod/issues",
-				"sources": "https://github.com/QuiltMC/quilt-template-mod"
+				"homepage": "https://github.com/Ewrcraft/Testmod",
+				"issues": "https://github.com/Ewrcraft/Testmod/issues",
+				"sources": "https://github.com/Ewrcraft/Testmod"
 			},
 			"icon": "assets/example_mod/icon.png"
 		},
 		"intermediate_mappings": "net.fabricmc:intermediary",
 		"entrypoints": {
-			"init": "com.example.example_mod.ExampleMod"
+			"init": "online.zvserv.testmod.TestMod"
 		},
 		"depends": [
 			{
@@ -36,5 +37,5 @@
 			}
 		]
 	},
-	"mixin": "example_mod.mixins.json"
+	"mixin": "test_mod.mixins.json"
 }
